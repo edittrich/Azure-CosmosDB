@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-package com.azure.cosmos.sample.sync;
+package de.edittrich.azure.cosmos.sync;
 
 import com.azure.cosmos.ConnectionPolicy;
 import com.azure.cosmos.ConsistencyLevel;
@@ -18,9 +18,9 @@ import com.azure.cosmos.CosmosItemResponse;
 import com.azure.cosmos.FeedOptions;
 import com.azure.cosmos.FeedResponse;
 import com.azure.cosmos.Resource;
-import com.azure.cosmos.sample.common.AccountSettings;
-import com.azure.cosmos.sample.common.Families;
-import com.azure.cosmos.sample.common.Family;
+import de.edittrich.azure.cosmos.common.AccountSettings;
+import de.edittrich.azure.cosmos.common.Families;
+import de.edittrich.azure.cosmos.common.Family;
 import com.google.common.collect.Lists;
 
 import java.time.Duration;
